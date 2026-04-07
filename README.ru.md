@@ -4,7 +4,7 @@
 
 Я собираю практичные homelab и open-source проекты вокруг почтовой инфраструктуры, syslog, ELK и observability.
 
-Смысл этих проектов — собрать воспроизводимый Kerio Connect lab, провести syslog через Logstash и Elasticsearch к Grafana / Kibana, а реальные журналы превратить в безопасные анонимизированные примеры для обучения, демо и повторяемой проверки пайплайнов.
+Смысл этих проектов — собрать воспроизводимый Kerio Connect lab и прогнать синтетическую почтовую нагрузку по всей цепочке: от Kerio и текстовых логов через Logstash и Elasticsearch до метрик и дашбордов в Grafana / Kibana.
 
 ## Основная линейка проектов: Kerio Connect Monitoring & Logging
 
