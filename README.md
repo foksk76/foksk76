@@ -2,9 +2,9 @@ Language: [English](README.md) | [Русский](README.ru.md)
 
 # Hi, I'm foksk76
 
-I build practical homelab and open-source projects around email infrastructure, syslog, ELK, and observability.
+I build practical homelab and open-source projects around email infrastructure, syslog, ELK, monitoring, and event analysis.
 
-My repositories focus on reproducible lab work, safe public examples, and documentation that is easy to hand off to another engineer.
+The goal of these projects is to reproducibly run suspicious mail activity in a Kerio Connect lab, move logs through Logstash and Elasticsearch into metrics and Grafana / Kibana dashboards, and help engineers identify compromise signals, review events, and reduce the risk of repeat attacks.
 
 ## Featured project line: Kerio Connect Monitoring & Logging
 
@@ -30,9 +30,9 @@ Kerio Connect lab -> Syslog -> Logstash -> Elasticsearch -> Grafana / Kibana
 
 ## Audience
 
-- Homelab engineers who want a reproducible email observability lab.
+- Homelab engineers who want a reproducible lab for monitoring email infrastructure.
 - Sysadmins learning how syslog becomes searchable operational data.
-- Security, DevSecOps, and observability practitioners who need safe examples for demos or handoff.
+- Security, DevSecOps, and monitoring engineers who need safe examples for demos or handoff.
 
 ## What you will find in my repositories
 
