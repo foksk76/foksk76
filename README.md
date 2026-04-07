@@ -1,10 +1,15 @@
+Language: [English](README.md) | [Русский](README.ru.md)
+
 # Hi, I'm foksk76
 
 I build practical homelab and open-source projects around email infrastructure, syslog, ELK, and observability.
 
+My repositories focus on reproducible lab work, safe public examples, and documentation that is easy to hand off to another engineer.
+
 ## Featured project line: Kerio Connect Monitoring & Logging
 
-A reproducible educational stack for:
+A lab-friendly project family for:
+
 - running a Kerio Connect lab
 - forwarding and parsing syslog
 - anonymizing real data for safe public use
@@ -18,18 +23,20 @@ A reproducible educational stack for:
 
 ## Project flow
 
-Kerio Connect lab → Syslog → Logstash → Elasticsearch → Grafana/Kibana  
-                                     ↘ anonymized sample data for public repos and blog posts
+```text
+Kerio Connect lab -> Syslog -> Logstash -> Elasticsearch -> Grafana / Kibana
+                                      -> anonymized sample data for public repos and blog posts
+```
 
 ## Audience
 
-- homelab engineers
-- sysadmins learning observability
-- security / DevSecOps practitioners
+- Homelab engineers who want a reproducible email observability lab.
+- Sysadmins learning how syslog becomes searchable operational data.
+- Security, DevSecOps, and observability practitioners who need safe examples for demos or handoff.
 
 ## What you will find in my repositories
 
-- step-by-step READMEs
-- reproducible lab setup
-- public-safe test data approach
-- practical documentation for handoff and reuse
+- Step-by-step READMEs with quick onboarding paths.
+- Reproducible lab setup and validation notes.
+- Public-safe test data approach for demos and publication.
+- Practical documentation for handoff and reuse.
